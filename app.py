@@ -6,7 +6,7 @@ import numpy as np
 
 app = Flask(__name__)
 
-model_path = r"C:\Users\Chun Yu\Desktop\123\banana_classifier.h5"
+model_path = "Your_Model_Path_here.h5"
 model = load_model(model_path, compile=False)
 
 def prepare_image(img_path):
